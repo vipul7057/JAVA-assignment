@@ -88,3 +88,12 @@ public static void main(String args[]) {
 
 Q4.
 ===================================================================================================
+public static void main(String args[])
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter 1st number");
+		byte b1 = sc.nextByte();
+		byte b2 = sc.nextByte();
+		byte bsum = (byte) (b1+b2);
+		System.out.println("The addition is :"+bsum);
+	}
