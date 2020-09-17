@@ -88,3 +88,35 @@ public static void main(String args[]) {
 
 Q4.
 ===================================================================================================
+public static void main(String args[])
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter 1st number");
+		byte b1 = sc.nextByte();
+		byte b2 = sc.nextByte();
+		byte bsum = (byte) (b1+b2);
+		System.out.println("The addition is :"+bsum);
+	}
+
+=======================================
+Q5
+public static void main(String args[]){  
+		System.out.println("1st is: "+args[0]); 
+		System.out.println("2nd is: "+args[1]);  
+		System.out.println("3rd is: "+args[2]);  
+		} 
+		
+=============================
+Q6
+public static void main(String args[])
+	{
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter the Radius");
+		int i = scanner.nextInt();
+		double pi =3.14;
+		double area = pi*(i * i);
+		double cir = 2 * pi * i;
+		System.out.println("The area of circle is "+area);
+		System.out.println("The circumference is :"+cir);
+		
+	}
